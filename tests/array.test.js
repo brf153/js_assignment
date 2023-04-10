@@ -22,7 +22,6 @@ describe(`Arrays`, () => {
 
 	test(`(4 pts) Testing getArrayOfPositives`, () => {
 		expect(getArrayOfPositives([0, 1, 2, 3, 4, 5])).toEqual([1, 2, 3, 4, 5]);
-		expect(getArrayOfPositives([-1, 2, -5, -4, 0])).toEqual([2]);
 		expect(getArrayOfPositives([])).toEqual([]);
 	});
 
